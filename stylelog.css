@@ -1,0 +1,360 @@
+/**{
+	border:3px solid black;
+
+}
+*/
+
+.lo{
+	background-image: url("girl2.png");
+
+
+	background-position:center;
+	background-size: cover;
+}
+#navbar-custom {
+    background-color: #D3D4D5 ;
+    height: 20%;
+}
+.logo{
+	clip-path: none;
+	margin-right:1%;
+	width:6%;
+	height:6%;
+	object-fit: cover;
+}
+
+
+.popup-container {
+    display: none;
+    position: relative;
+    left:85px;
+    right: 20px;
+    width:70%;
+
+    top:3px;
+    bottom: 60px;
+    background-color:grey;
+    color:black;
+    padding: 6px;
+    border-radius: 8px;
+}
+.pflex{
+	display: flex;
+}
+
+
+.lab{
+	margin-left: 15%;
+	color: #EE0000;
+	cursor: pointer;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .popup-container {
+    display: block;
+}
+ 
+
+.typed-text {
+  white-space: nowrap; 
+  overflow: hidden; 
+  border-right: 6px solid transparent; 
+  animation: typing 4s steps(42) forwards infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 120%;
+  }
+}
+.box11{
+
+	width:48%;
+  height:50%;
+ 
+  padding:2%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+background: rgba( 89, 94, 94, 0.56 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-left: 51%;
+
+  
+}
+ span a{
+	color: white;
+}
+
+.ser{
+	
+	width:100%;
+	gap:2%;
+	display: flex;
+	
+	
+	height: 30%;
+}
+.ser img{
+	width:6%;
+	object-fit: contain;
+	height: 5%;
+}
+h2{
+
+    font-family: 'Alkalami';font-size: 4px;
+}
+#f1{
+	
+	border: 2px solid #42D8ED;
+	padding:2%;
+	
+}
+img{
+	width:17%;
+	height: 17%;
+	
+}
+.pflex p{
+	color:yellow;
+}
+
+.ch{
+	padding-bottom:2%;
+	
+}
+h1{
+	color:red;
+	margin-left:11%;
+}
+div.sti {
+  visibility: hidden;
+}
+span{
+	margin-left: 25%;
+	margin-top: 4%;
+
+	font-weight: bold;
+}
+@media only screen and (max-width: 840px){
+	.box11{
+	width:67%;
+margin-left: 0%;
+		background: rgba( 89, 94, 94, 0.75 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+	margin-top :5%;
+		
+
+		height: 60%;
+	}
+  label{
+    font-weight:500;
+   
+
+  }
+  img{
+  width:21%;
+  height: 21%;
+  
+}
+	.lo{
+
+	background-image: url("girl3.jpeg");
+
+
+	background-position:center;
+	background-size: cover;
+		height: auto;
+		width:100%;
+		
+	}
+	.pflex img{
+		width: 30%;
+		height: 30%;
+	}
+	div.sti{
+		width: 40%;
+		display: block;
+		height:1%;
+		color: white;
+		margin-left: 30%;
+		visibility: visible;
+		
+	}
+
+.popup-container {
+    display: none;
+    position: relative;
+    left:25px;
+    right: 20px;
+    width:70%;
+height:10%;
+    top:3px;
+    bottom: 60px;
+    background-color:grey;
+    color:black;
+    padding: 6px;
+    border-radius: 8px;
+}
+	
+
+}
+@media only screen and (max-width: 400px){
+  .box11{
+  width:78%;
+}
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex-r ,.flex-c {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.flex-c{
+    flex-direction: column;
+}
+.flex-r{
+    flex-direction: row;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 10px;
+    background: #E5E5E5;  
+}
+
+
+
+.login-text{
+    background-color: #F6F6F6;
+    max-width: 400px;
+    min-height: 500px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.logo{
+    margin-bottom: 20px;
+    display: flex;
+}
+.logo .sa , .logo .sa i {
+    font-size: 25px;
+    color:#0d8aa7 ;
+}
+.logo .type{
+	white-space: nowrap; 
+  overflow: hidden; 
+   font-size: 25px;
+  border-right: 6px solid transparent; 
+  animation: typing 4s steps(42) forwards infinite;
+  animation-fill-mode: both;
+  margin-left:0.3em;
+  color:pink;
+
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 120%;
+  }
+}
+
+.login-text h1{
+    font-size: 25px;
+}
+.login-text p{
+    font-size: 15px;
+    color: #000000B2;
+}
+
+form{
+    align-items: flex-start !important;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.input-box{
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.label{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 3px;
+}
+
+.input{
+    background-color: #F6F6F6;
+    padding: 0px 5px;
+    border: 2px solid rgba(216, 216, 216, 1);
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: flex-start;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    background-color: #F6F6F6;
+    flex: 1;
+}
+.input i{
+    color:rgba(0, 0, 0, 0.4);
+}
+
+.check span{
+    color:#000000B2;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.btn{
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background: linear-gradient(122.33deg, #68bed1 30.62%, #1E94E9 100%);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: all 0.3s linear;
+}
+
+.btn:hover{
+    transform: translateY(-2px);
+}
+.extra-line{
+    font-size: 15px;
+    font-weight: 600;
+}
+.extra-line a{
+    color: #0095B6;
+}*/
